@@ -1,0 +1,43 @@
+# macOS
+.DS_Store
+
+# R session files
+.Rhistory
+.RData
+.Rproj.user/
+*.RData
+*.rds
+*.Rds
+
+# Raw or processed data
+data/*
+!data/README.md
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.mat
+*.edf
+*.set
+*.fif
+*.nii
+*.h5
+*.hdf5
+
+# Output folders
+results/
+outputs/
+figures/generated/
+figures/raw/
+
+# Temporary folders
+tmp/
+temp/
+debug/
+
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
